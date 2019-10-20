@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <EditText
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Only you exist
+Light at the end of the tunnel
+A Flower in the dessert
+The pearl of infinite price
+the one narrow bath - the only way
+no more doubt of choice
+your face pulses in my brain
+so gently when getting up and going to sleep
+your piece the transcends all arguments
+words kneeling at your feet
+your hand and heart are mine
+you are me and I am you
+all else can wait
+how good to be at home in You
+Arrived - disappearing in You
+sweet and content in your being
+IT IS DONE
+"
+        android:id="@+id/editText"/>
+
+
+    <Button
+        android:text="Button"
+        android:textStyle="italic"
+        android:button="@drawable/btn"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="speakNow"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignStart="@+id/editText" />
+
+
+    <ImageButton
+        android:id="@+id/btnSpeak"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="SPEAK"
+        android:src="@android:drawable/ic_btn_speak_now" />
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+</LinearLayout>

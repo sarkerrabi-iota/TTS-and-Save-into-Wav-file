@@ -1,2 +1,2 @@
-# TTS-and-Save-into-Wav-file
-TTS And Save into Wav file
+# Text-To-Speech-in-Android-Example-
+           Android provides Speech package that makes Text to Speech conversion very easy.  android.speech.tts.TextToSpeach class provides necessary methods to the trick.  At the start we need to implement the TextToSpeech.OnInitListener to do the initialization. During initialization we can set the Locale, Audio pitch rate, audio speed. setLanguage() method is used to set the language.
