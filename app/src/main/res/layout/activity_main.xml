@@ -2,52 +2,43 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
+
     <EditText
-        android:gravity="center"
+        android:id="@+id/editText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="Only you exist
-Light at the end of the tunnel
-A Flower in the dessert
-The pearl of infinite price
-the one narrow bath - the only way
-no more doubt of choice
-your face pulses in my brain
-so gently when getting up and going to sleep
-your piece the transcends all arguments
-words kneeling at your feet
-your hand and heart are mine
-you are me and I am you
-all else can wait
-how good to be at home in You
-Arrived - disappearing in You
-sweet and content in your being
-IT IS DONE
-"
-        android:id="@+id/editText"/>
+Light at the end of the tunnel" />
 
 
     <Button
-        android:text="Button"
-        android:textStyle="italic"
-        android:button="@drawable/btn"
-        android:textSize="20sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="speakNow"
+        android:layout_alignStart="@+id/editText"
         android:layout_alignTop="@+id/editText"
-        android:layout_alignStart="@+id/editText" />
+        android:button="@drawable/btn"
+        android:onClick="speakNow"
+        android:text="Button"
+        android:textSize="20sp"
+        android:textStyle="italic" />
 
+
+    <Button
+        android:id="@+id/bt_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play" />
 
     <ImageButton
         android:id="@+id/btnSpeak"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:layout_marginRight="10dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
         android:contentDescription="SPEAK"
         android:src="@android:drawable/ic_btn_speak_now" />
 
@@ -56,7 +47,7 @@ IT IS DONE
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp" />
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp" />
 
 </LinearLayout>
